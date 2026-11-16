@@ -32,7 +32,13 @@ h1{font-family:'Playfair Display',Georgia,serif;font-size:34px;line-height:1.2;m
 .tc .band i{font-size:24px;width:30px;text-align:center}.tc .name{font-weight:900;font-size:17px;line-height:1.25}
 .tc .line{padding:12px 18px 6px;color:#4F5D5D;font-size:14.5px;line-height:1.5;flex:1}.tc .go{padding:0 18px 16px;font-weight:700;font-size:14px;color:#0B50A1}
 .soon{opacity:.75}.soon .go{color:#4F5D5D}
-/* version 2 */
+/* version 2 (16 Nov): option 1 cards + HLA number in the band + group headings */
+.tc .hla{flex:0 0 auto;font-weight:900;font-size:13px;letter-spacing:.08em;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.55);border-radius:8px;padding:4px 9px;line-height:1.2;white-space:nowrap}
+.tc .hla b{font-family:'Playfair Display',Georgia,serif;font-style:italic;font-size:20px;letter-spacing:0;margin-left:2px}
+.grp{margin:0 0 16px}.grp h2{font-family:'Playfair Display',Georgia,serif;font-size:24px;margin:0;color:#18181B}
+.grp.sep{border-top:1px solid #E3E9E9;margin-top:38px;padding-top:26px}
+.flex3{display:flex;flex-wrap:wrap;justify-content:center;gap:22px}.flex3 .tc{flex:0 1 calc((100% - 44px) / 3)}
+/* old version 2 classes, kept for reference */
 .pack{background:#0B50A1;border-radius:20px;padding:26px 26px 30px;margin:0 0 34px}
 .sec{display:flex;align-items:baseline;gap:14px;margin:0 0 16px}.sec h2{font-family:'Playfair Display',Georgia,serif;font-size:26px;margin:0}.sec p{margin:0;color:#4F5D5D;font-size:14px}
 .pack .sec h2{color:#fff}.pack .sec p{color:#D6E4F5}
@@ -87,7 +93,7 @@ h1{font-family:'Playfair Display',Georgia,serif;font-size:34px;line-height:1.2;m
 .idx{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));margin-top:18px}.idx a{display:block;border:1px solid #E3E9E9;border-radius:14px;padding:16px 18px;text-decoration:none;color:#18181B}
 .idx a:hover{border-color:#0B50A1}.idx b{display:block;font-size:16px;margin-bottom:4px;color:#0B50A1}.idx span{color:#4F5D5D;font-size:14px}
 @media (max-width:1100px){.side{display:none}.g4{grid-template-columns:repeat(2,minmax(0,1fr))}.studies{grid-template-columns:1fr 1fr}}
-@media (max-width:860px){.grid3{grid-template-columns:1fr 1fr}.two,.finds,.cws{grid-template-columns:1fr}.top{padding:10px 16px}.top nav .pill{display:none}
+@media (max-width:860px){.grid3{grid-template-columns:1fr 1fr}.flex3 .tc{flex-basis:calc((100% - 22px) / 2)}.two,.finds,.cws{grid-template-columns:1fr}.top{padding:10px 16px}.top nav .pill{display:none}
  .bar-in{padding:9px 16px}.wrap{padding:0}.wrap main{padding:22px 16px 48px}.hero h1{font-size:30px}.search{min-width:0}.search kbd{display:none}}
-@media (max-width:560px){.grid3,.g4,.studies{grid-template-columns:1fr}.bar-in .sep,.bar-in .sep+*{display:none}}
+@media (max-width:560px){.grid3,.g4,.studies{grid-template-columns:1fr}.flex3 .tc{flex-basis:100%}.bar-in .sep,.bar-in .sep+*{display:none}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
