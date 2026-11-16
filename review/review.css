@@ -38,6 +38,8 @@ h1{font-family:'Playfair Display',Georgia,serif;font-size:34px;line-height:1.2;m
 .grp{margin:0 0 16px}.grp h2{font-family:'Playfair Display',Georgia,serif;font-size:24px;margin:0;color:#18181B}
 .grp.sep{border-top:1px solid #E3E9E9;margin-top:38px;padding-top:26px}
 .flex3{display:flex;flex-wrap:wrap;justify-content:center;gap:22px}.flex3 .tc{flex:0 1 calc((100% - 44px) / 3)}
+/* 16 Nov: option 2 hero runs edge to edge and joins the blue bar (no white side strips) */
+html{overflow-x:clip}.hero.full{margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw);border-radius:0;padding:52px 24px 56px}
 /* 16 Nov: "Explore" as a real button on option 2 (the whole card stays clickable) */
 .btns-go .tc .go{display:inline-flex;align-self:flex-start;gap:8px;align-items:center;margin:6px 18px 18px;padding:9px 18px;border-radius:999px;background:#0B50A1;color:#fff;font-weight:700;font-size:14px;line-height:1;transition:background .2s,color .2s,transform .2s}
 .btns-go .tc:hover .go,.btns-go .tc:focus-visible .go{background:#F39200;color:#111;transform:translateX(2px)}
