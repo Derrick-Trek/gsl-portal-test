@@ -38,6 +38,16 @@ h1{font-family:'Playfair Display',Georgia,serif;font-size:34px;line-height:1.2;m
 .grp{margin:0 0 16px}.grp h2{font-family:'Playfair Display',Georgia,serif;font-size:24px;margin:0;color:#18181B}
 .grp.sep{border-top:1px solid #E3E9E9;margin-top:38px;padding-top:26px}
 .flex3{display:flex;flex-wrap:wrap;justify-content:center;gap:22px}.flex3 .tc{flex:0 1 calc((100% - 44px) / 3)}
+/* 16 Nov ribbon: bookmark ribbon hanging from the photo's top edge on the six HLA cards */
+.tc.rbn{position:relative;overflow:visible}.tc.rbn img{border-radius:16px 16px 0 0}
+.rib{position:absolute;top:-6px;left:22px;z-index:2;width:58px;padding:10px 0 20px;display:flex;flex-direction:column;align-items:center;color:#fff;
+ background:linear-gradient(180deg,#F79A3E 0%,#F68B21 55%,#E07A12 100%);clip-path:polygon(0 0,100% 0,100% 100%,50% 80%,0 100%);
+ filter:drop-shadow(0 4px 6px rgba(0,0,0,.28))}
+.rib::before{content:"";position:absolute;top:0;right:-6px;width:6px;height:6px;background:#A9530A;clip-path:polygon(0 0,0 100%,100% 100%)}
+.tc.rbn::after{content:"";position:absolute;top:-6px;left:80px;width:6px;height:6px;background:#A9530A;clip-path:polygon(0 0,0 100%,100% 100%)}
+.rib small{font-size:11px;font-weight:900;letter-spacing:.18em;line-height:1;margin-bottom:3px;opacity:.95}
+.rib b{font-family:'Playfair Display',Georgia,serif;font-style:italic;font-weight:800;font-size:30px;line-height:1}
+.tc.rbn:hover .rib{transform:translateY(3px);transition:transform .2s}
 /* old version 2 classes, kept for reference */
 .pack{background:#0B50A1;border-radius:20px;padding:26px 26px 30px;margin:0 0 34px}
 .sec{display:flex;align-items:baseline;gap:14px;margin:0 0 16px}.sec h2{font-family:'Playfair Display',Georgia,serif;font-size:26px;margin:0}.sec p{margin:0;color:#4F5D5D;font-size:14px}
