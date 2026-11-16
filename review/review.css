@@ -45,6 +45,11 @@ body:has(.hero.live){background:#0B50A1}body:has(.hero.live) .top{background:#ff
 .hero.live{margin-bottom:8px;padding:56px 24px 40px}.hero.live h1{font-size:48px}.hero.live p{color:#E8F0FA;font-size:18px}
 .ask{font-family:'Playfair Display',Georgia,serif;color:#fff;text-align:center;font-size:30px;margin:6px 0 28px}
 body:has(.hero.live) .tc{border:0;box-shadow:0 10px 28px rgba(0,0,0,.18)}
+/* 16 Nov colour fix: on the blue page, card names sit on white (one clean card); HLA = orange tag only;
+   specialist topics keep their colour as a 4px line under the photo + a coloured icon */
+body:has(.hero.live) .tc .band{background:#fff!important;color:#18181B;padding:16px 18px 0;border-top:4px solid var(--c,#fff)}
+body:has(.hero.live) .tc .band .name{font-size:18px}body:has(.hero.live) .tc .band i{color:var(--c);font-size:20px;width:24px}
+body:has(.hero.live) .tc .line{padding-top:6px}
 /* 16 Nov: "Explore" as a real button on option 2 (the whole card stays clickable) */
 .btns-go .tc .go{display:inline-flex;align-self:flex-start;gap:8px;align-items:center;margin:6px 18px 18px;padding:9px 18px;border-radius:999px;background:#0B50A1;color:#fff;font-weight:700;font-size:14px;line-height:1;transition:background .2s,color .2s,transform .2s}
 .btns-go .tc:hover .go{filter:brightness(1.12)}
