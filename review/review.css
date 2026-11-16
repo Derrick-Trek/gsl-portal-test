@@ -48,7 +48,7 @@ body:has(.hero.live) .tc{border:0;box-shadow:0 10px 28px rgba(0,0,0,.18)}
 /* 16 Nov colour fix: on the blue page, card names sit on white (one clean card); HLA = orange tag only;
    specialist topics keep their colour as a 4px line under the photo + a coloured icon */
 body:has(.hero.live) .tc .band{background:#fff!important;color:#18181B;padding:16px 18px 0;border-top:4px solid var(--c,#fff)}
-body:has(.hero.live) .tc .band .name{font-size:18.5px;font-weight:700}body:has(.hero.live) .tc .band i{color:var(--c);font-size:20px;width:24px}
+body:has(.hero.live) .tc .band .name{font-size:18.5px;font-weight:700;color:#0B50A1}body:has(.hero.live) .tc .band i{color:var(--c);font-size:20px;width:24px}
 body:has(.hero.live) .tc .line{padding-top:6px}
 /* 16 Nov: compact card footer on option 2: name left, Explore button right on one line (no empty gap) */
 body:has(.hero.live) .tc{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;position:relative}
