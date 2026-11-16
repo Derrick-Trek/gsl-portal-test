@@ -56,6 +56,8 @@ body:has(.hero.live) .tc img{grid-column:1/-1;border-bottom:4px solid var(--c,#f
 body:has(.hero.live) .tc .band{grid-column:1;border-top:0;padding:16px 12px 16px 20px}
 body:has(.hero.live) .tc .line{display:none}
 body:has(.hero.live) .btns-go .tc .go{grid-column:2;margin:0 18px 0 0;align-self:center}
+/* 16 Nov (his call): option 2 header has no Portal Tour button and no second search in the blue bar */
+body:has(.hero.live) .top nav .pill:first-child,body:has(.hero.live) .bar .search{display:none}
 /* 16 Nov: "Explore" as a real button on option 2 (the whole card stays clickable) */
 .btns-go .tc .go{display:inline-flex;align-self:flex-start;gap:8px;align-items:center;margin:6px 18px 18px;padding:9px 18px;border-radius:999px;background:#0B50A1;color:#fff;font-weight:700;font-size:14px;line-height:1;transition:background .2s,color .2s,transform .2s}
 .btns-go .tc:hover .go{filter:brightness(1.12)}
