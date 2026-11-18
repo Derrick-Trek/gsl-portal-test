@@ -122,7 +122,7 @@ body:has(.hero.live) .sp-div{height:1px;background:rgba(255,255,255,.4);margin:4
 .cws{display:grid;gap:24px;grid-template-columns:repeat(2,minmax(0,1fr));margin-top:26px;align-items:stretch}
 /* 18 Nov: equal-height coaching cards; description grows so the chapter/question lists and buttons line up */
 .cws .cw{display:flex;flex-direction:column}.cws .cw-b{flex:1;display:flex;flex-direction:column}.cws .cw .d{flex:1}
-body:has(.cws) .intro p{max-width:none}
+body:has(.cws) .intro p{max-width:none}.intro .c3{margin:-4px 0 14px;padding-left:22px}.intro .c3 li{margin:2px 0}
 .cw{border:1px solid #E3E9E9;border-radius:16px;overflow:hidden;background:#fff}.cw img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;border-bottom:1px solid #E3E9E9}
 .cw-b{padding:18px 22px 22px}.cw .for{font-size:12px;font-weight:900;letter-spacing:.14em;text-transform:uppercase;margin:0 0 4px}
 .cw h2{font-family:'Playfair Display',Georgia,serif;font-size:24px;line-height:1.25;margin:0 0 8px}.cw .d{color:#4F5D5D;font-size:15px;margin:0 0 12px}
