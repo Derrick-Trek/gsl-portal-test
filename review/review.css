@@ -110,6 +110,21 @@ body:has(.hero.live) .sp-div{height:1px;background:rgba(255,255,255,.4);margin:4
 .se .d{font-size:13.5px;color:#4F5D5D;line-height:1.5;flex:1}.se .go{font-size:13px;font-weight:700;margin-top:10px}
 /* 25 Nov (his call): School Culture intro runs the full width, no empty right-hand space */
 .intro.sc-full p{max-width:none}
+/* 25 Nov: School Culture version 2 ('cook' pass) */
+.sc2-head{display:flex;align-items:center;gap:14px;margin:4px 0 0}.sc2-head h1{margin:0}
+.sc2-tag{flex:0 0 auto;background:#F68B21;color:#fff;font-weight:900;font-size:14px;letter-spacing:.04em;padding:5px 11px;border-radius:6px;line-height:1.2}
+.sc2-sub{font-family:'Playfair Display',Georgia,serif;font-style:italic;font-size:21px;color:#0B50A1;margin:6px 0 18px}
+.sc2-lead p{font-size:18.5px;line-height:1.65;color:#18181B;margin:0}
+.sc2-cards{margin-top:26px}.sc2-cards .rc .d{color:#4F5D5D;white-space:pre-line}
+.sc2-about{margin-top:46px;padding-top:6px;border-top:1px solid #E3E9E9}.sc2-about .h2{margin:26px 0 16px}
+.sc2-two{display:grid;grid-template-columns:1fr 1fr;gap:40px}.sc2-two p,.sc2-p{margin:0 0 14px;line-height:1.7}
+.sc2-p{margin-top:8px}
+.sc2-pair{display:grid;grid-template-columns:1fr 1fr;gap:0;margin:22px 0 8px}
+.sc2-pair>div{padding:4px 36px 4px 0}.sc2-pair>div+div{padding:4px 0 4px 36px;border-left:1px solid #E3E9E9}
+.sc2-pair h3{font-family:'Playfair Display',Georgia,serif;font-size:26px;color:#0B50A1;margin:0 0 8px}.sc2-pair p{margin:0;line-height:1.7}
+.sc2-pair strong{font-weight:400}
+.sc2-sum{font-family:'Playfair Display',Georgia,serif;font-style:italic;font-size:24px;line-height:1.4;color:#18181B;margin:30px 0 0;padding-top:22px;border-top:1px solid #E3E9E9}
+@media (max-width:800px){.sc2-two,.sc2-pair{grid-template-columns:1fr}.sc2-pair>div+div{border-left:0;padding-left:0;margin-top:18px}}
 /* training, 25 Nov: the earlier test-site template (hla/1/training), right-hand side only */
 .tband{position:relative;overflow:hidden;display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:44px;align-items:center;background:#FBA65A;border-radius:4px;padding:36px 36px 40px;margin:0 0 8px;color:#281A39}
 .tband .context{display:inline-flex;align-items:center;gap:8px;margin:0 0 10px;font-size:15px;font-weight:600}.tband .context::before{content:"";width:18px;height:3px;border-radius:2px;background:#281A39}
