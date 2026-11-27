@@ -147,6 +147,19 @@ body:has(.hero.live) .sp-div{height:1px;background:rgba(255,255,255,.4);margin:4
 .pg .v{font-family:'Playfair Display',Georgia,serif;font-size:23px;font-weight:700;color:#18181B;line-height:1.2}
 .pg-ar{flex:0 0 64px;display:grid;place-items:center;color:var(--pg);font-size:22px;transition:transform .15s}
 .pg.nx:hover .pg-ar{transform:translateX(5px)}.pg.pv:hover .pg-ar{transform:translateX(-5px)}
+.sparts{margin:48px 0 0;padding-top:26px;border-top:1px solid #E3E9E9}
+.sp-head{font-family:'Playfair Display',Georgia,serif;font-size:22px;font-weight:700;color:#18181B;margin:0 0 14px}
+.sp-row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.sp{display:flex;align-items:stretch;min-height:72px;border-radius:12px;overflow:hidden;text-decoration:none;background:#fff;border:1px solid #E3E9E9;transition:transform .15s,box-shadow .15s}
+a.sp:hover{transform:translateY(-3px);box-shadow:0 10px 22px rgba(11,80,161,.14)}
+.sp-ic{flex:0 0 56px;display:grid;place-items:center;background:var(--sp);color:#fff;font-size:20px}
+.sp-tx{flex:1;display:flex;flex-direction:column;justify-content:center;gap:3px;padding:10px 14px}
+.sp-t{font-weight:700;font-size:16px;line-height:1.25;color:#18181B}
+.sp-ar{flex:0 0 34px;display:grid;place-items:center;color:var(--sp);font-size:18px;transition:transform .15s}a.sp:hover .sp-ar{transform:translateX(3px)}
+.sp.here{background:#F4F6F9;border-style:dashed}.sp.here .sp-ic{opacity:.45}.sp.here .sp-t{color:#4F5D5D}
+.sp-h{font-size:13.5px;font-weight:600;color:#4F5D5D}
+.pgr.pgr-after{margin-top:22px;padding-top:0;border-top:0}
+@media (max-width:1100px){.sp-row{grid-template-columns:1fr 1fr}}
 .pg.pv{flex-direction:row-reverse}.pg.pv .pg-tx{text-align:right;align-items:flex-end}
 /* training, 25 Nov: the earlier test-site template (hla/1/training), right-hand side only */
 .tband{position:relative;overflow:hidden;display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:44px;align-items:center;background:#FBA65A;border-radius:4px;padding:36px 36px 40px;margin:0 0 8px;color:#281A39}
