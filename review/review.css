@@ -138,7 +138,7 @@ body:has(.hero.live) .sp-div{height:1px;background:rgba(255,255,255,.4);margin:4
 .sc3-about p.sc2-sum::before{content:"“";position:absolute;left:24px;top:12px;font-family:'Playfair Display',Georgia,serif;font-style:normal;font-size:84px;line-height:1;color:#F68B21}
 .sc3-side .rc .band{padding:9px 18px 8px}.sc3-side .rc .band .num{font-size:30px}.sc3-side .rc .t{padding-top:11px}.sc3-side .rc .go{padding:9px 18px 13px}
 @media (min-width:1181px) and (min-height:820px){.sc3-side.g4{position:sticky;top:18px}}
-.sc3-slim{margin-top:48px}
+.sc3-slim{margin-top:40px;padding-bottom:30px}
 .sc3-side.g4{grid-template-columns:1fr;gap:12px}.sc3-side .rc .d{color:#4F5D5D;white-space:pre-line}
 .sc3-c{display:flex;gap:14px;align-items:flex-start;padding:14px 16px;border:1px solid #E3E9E9;border-radius:12px;background:#fff;text-decoration:none;color:#18181B;transition:box-shadow .15s,transform .15s}
 .sc3-c:hover{transform:translateY(-2px);box-shadow:0 10px 22px rgba(11,80,161,.13)}
