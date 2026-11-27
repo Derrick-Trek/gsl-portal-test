@@ -199,6 +199,11 @@ a.sp:hover{transform:translateY(-3px);box-shadow:0 10px 22px rgba(11,80,161,.14)
 .after-card .at{font-family:'Playfair Display',Georgia,serif;font-style:italic;font-weight:500;font-size:23px;line-height:1.25;color:#281A39}
 .after-card .ag{display:flex;gap:18px;color:#4f5560;flex-wrap:wrap}.after-card .ag b{color:#9a4d00}
 .after-card .go{position:absolute;right:22px;top:22px;font-size:22px;color:#0B50A1}
+@media (max-width:800px){.tband{padding:20px 20px 22px}.tband h1{font-size:36px}
+.tmod{padding:20px 16px 10px}.mhead{grid-template-columns:1fr;gap:16px}.tmod h2{font-size:26px}
+.srow{grid-template-columns:44px minmax(0,1fr);gap:12px}.scode{height:40px;font-size:15px}.stitle{font-size:20px}
+.sopen{grid-column:2;justify-self:start}.tmore summary{width:auto}.tmore-in{grid-template-columns:1fr;gap:4px}}
+@media (max-width:560px){.sc3-side.g4,.sp-row{grid-template-columns:1fr}}
 /* on the job */
 .two{display:grid;gap:22px;grid-template-columns:1fr 1fr}
 .col{border:1px solid #E3E9E9;border-radius:16px;overflow:hidden}.col h2{margin:0;padding:12px 18px;color:#fff;font-size:17px;font-weight:900;display:flex;justify-content:space-between}
