@@ -129,8 +129,17 @@ body:has(.hero.live) .sp-div{height:1px;background:rgba(255,255,255,.4);margin:4
 .sc3{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:44px;align-items:start}
 .sc3-main p{line-height:1.7}.sc3-about{margin-top:34px}.sc3-about p{margin:0 0 14px}
 .sc3-about p.sc2-sum{margin-top:30px}
-.sc3-pair h3{font-family:'Playfair Display',Georgia,serif;font-size:24px;color:#0B50A1;margin:22px 0 6px}.sc3-pair p{margin:0}.sc3-pair strong{font-weight:400}
-.sc3-side.g4{grid-template-columns:1fr;gap:16px}.sc3-side .rc .d{color:#4F5D5D;white-space:pre-line}
+/* 27 Nov 'all five': pair cards, summary highlight, larger text, tiles stay in view */
+.sc3-about p{font-size:17px}
+.sc3-pair{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:24px 0 0}
+.sc3-pair .pc{background:#fff;border:1px solid #E3E9E9;border-top:5px solid var(--pc);border-radius:14px;padding:20px 22px 22px;box-shadow:0 8px 22px -16px rgba(20,40,70,.35)}
+.sc3-pair h3{font-family:'Playfair Display',Georgia,serif;font-size:25px;color:var(--pct,var(--pc));margin:0 0 10px}.sc3-pair p{margin:0;font-size:16px}.sc3-pair strong{font-weight:400}
+.sc3-about p.sc2-sum{position:relative;margin:30px 0 0;padding:26px 30px 26px 84px;border:0;border-left:5px solid #F68B21;border-radius:0 14px 14px 0;background:#FEF3E7;font-size:25px;line-height:1.4}
+.sc3-about p.sc2-sum::before{content:"“";position:absolute;left:24px;top:12px;font-family:'Playfair Display',Georgia,serif;font-style:normal;font-size:84px;line-height:1;color:#F68B21}
+.sc3-side .rc .band{padding:9px 18px 8px}.sc3-side .rc .band .num{font-size:30px}.sc3-side .rc .t{padding-top:11px}.sc3-side .rc .go{padding:9px 18px 13px}
+@media (min-width:1181px) and (min-height:820px){.sc3-side.g4{position:sticky;top:18px}}
+.sc3-slim{margin-top:48px}
+.sc3-side.g4{grid-template-columns:1fr;gap:12px}.sc3-side .rc .d{color:#4F5D5D;white-space:pre-line}
 .sc3-c{display:flex;gap:14px;align-items:flex-start;padding:14px 16px;border:1px solid #E3E9E9;border-radius:12px;background:#fff;text-decoration:none;color:#18181B;transition:box-shadow .15s,transform .15s}
 .sc3-c:hover{transform:translateY(-2px);box-shadow:0 10px 22px rgba(11,80,161,.13)}
 .sc3-n{flex:0 0 40px;height:40px;border-radius:8px;display:grid;place-items:center;color:#fff;font-family:'Playfair Display',Georgia,serif;font-style:italic;font-weight:800;font-size:22px}
